@@ -50,3 +50,16 @@ Embed the widget into any page:
     onVerified: () => document.querySelector('#signupBtn').disabled = false
   });
 </script>
+
+---
+
+License
+
+MIT — fork it, meme it, host it on a dusty VM, or deploy it to your billion-dollar café. If it explodes, send logs and popcorn.
+
+Final note
+
+If you came here for best practices: you were warned.
+If you came here for a laugh or a demo that confuses interns: welcome home.
+
+Made with 🥔, sarcasm, and questionable decisions by Chin (aka Chin-x1919) — Episode 1 of the CF-Security Series.
