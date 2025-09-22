@@ -53,7 +53,7 @@ That’s it. Security = 0/10. Comedy = 10/10.
 ## Quick usage
 ```html
 <div id="cfns-root"></div>
-<script src="cf-not-secure-anti-bot.js"></script>
+<script src="cf-securityB.js"></script>
 <script>
   CFNotSecure.init({
     container: '#cfns-root',
