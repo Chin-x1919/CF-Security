@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup System</title>
+</head>
+<body style="font-family:sans-serif;display:grid;place-items:center;min-height:100vh;background:#f0f0f0">
+  <div style="background:#fff;padding:20px;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.1);width:320px">
+    <h2>Create Account</h2>
+    <form id="signupForm" action="signup.php" method="POST">
+      <label>Username</label><br>
+      <input type="text" name="username" required style="width:100%;margin:6px 0"><br>
+      <label>Password</label><br>
+      <input type="password" name="password" required style="width:100%;margin:6px 0"><br>
+      <div id="cfns-root"></div>
+      <button id="signupBtn" type="submit" disabled>Sign Up</button>
+    </form>
+  </div>
+
+  <!-- anti-bot script -->
+  <script src="CF-securityB.js"></script>
+  <script>
+    // hook with form
+    CFNotSecure.init({
+      container: '#cfns-root',
+      buttonText: 'Verify I am human',
+      afterText: 'Verified',
+      onVerified: () => {
+        // unlock signup
+        document.getElementById('signupBtn').disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
