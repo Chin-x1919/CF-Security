@@ -34,28 +34,14 @@ If you're here to copy/paste this into your startup's auth flow to save five min
 - ✅ Stylish UI so people think you hired a designer  
 - ✅ 100% potato-grade security
 
----
-
-## Quick example (use responsibly — as a joke)
-Embed the widget into any page:
-
-```html
-<div id="cfns-root"></div>
-<script src="/path/to/cf-not-secure-anti-bot.js"></script>
-<script>
-  CFNotSecure.init({
-    container: '#cfns-root',
-    buttonText: 'Proceed',
-    afterText: 'Access Granted™',
-    onVerified: () => document.querySelector('#signupBtn').disabled = false
-  });
-</script>
 
 ---
 
 License
 
 MIT — fork it, meme it, host it on a dusty VM, or deploy it to your billion-dollar café. If it explodes, send logs and popcorn.
+
+---
 
 Final note
 
