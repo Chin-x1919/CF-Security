@@ -24,6 +24,22 @@ Bots can bypass it in 0.0001 seconds. Humans will laugh for longer.
 
 ---
 
+## Flowchart of the "System"
+
+```
+[User sees checkbox]
+        ↓
+[Clicks it proudly]
+        ↓
+[Form unlocks]
+        ↓
+[Bot laughs, bypasses instantly]
+        ↓
+[You laugh, they cry]
+```
+
+---
+
 ## Demo (signup flow)
 1. User fills in username + password  
 2. User must check the “I am not a bot” box  
